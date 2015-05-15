@@ -1,0 +1,46 @@
+<div>
+    <form id="Area" name="Area" method="post">
+
+        <fieldset>
+
+            <legend>Area</legend><br/>
+
+            <legend>Area Id:</legend><br/>
+            <input type="text" name="AreaId" id="AreaId"> <span id="AreaId"></span> <br/><br>
+
+
+            <legend>Area Desc:</legend>
+            <input name="AreaDesc" type="text" id="AreaDesc"> <span id="descupdate"></span><br/><br>
+
+
+            <legend>Area Position:</legend>
+            <input type="text" name="AreaPos" id="AreaPos"> <span id="positionupdate"></span><br/><br>
+
+
+            <legend>Area Name:</legend>
+            <input type="text" name="AreaName" id="AreaName"> <span id="nameupdate"></span><br/><br>
+
+
+            <legend>Area Alias:</legend>
+            <input type="text" name="AreaAlias" id="AreaAlias"> <span id="aliasupdate"></span><br/> <br>
+
+
+        </fieldset>
+
+
+        <p>
+            <input type="submit" onclick="return validareasinsert();" name="submitinsertArea" id="submitinsertArea" value="Add New">
+            <input type="submit" onclick="return validareasupdate();" name="submitupdateArea" id="submitupdateArea" value="Update">
+            <input type="submit" onclick="return validareasdelete();" name="submitdeletearea" id="submitdeletearea" value="Delete">
+
+
+
+            <input type="button" onClick="location.href = '8AddNewArticleManagement.html'"  name="ArticleInsert" id="ArticleInsert" value="Add Article">
+            <br/>
+        </p>
+
+
+
+
+</form>
+</div>

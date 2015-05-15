@@ -1,0 +1,57 @@
+<div>
+    <form id="Article" name="Article" method="post">
+
+        <fieldset>
+            <legend> Article Info </legend> <br/>
+
+
+            <legend>Article Id :  </legend> <br/>
+            <input name="ArticleId" type="text" id="ArticleId">Used for Update/Delete |||| <span id="idspan"> </span> <br/><br/>
+
+
+
+            <legend>Page Id : </legend> <br/>
+            <input type="text" name="ArticlePageId" id="ArticlePageId"><span id="PageID"> </span><br/><br/>
+
+
+            <legend>Area Id : </legend> <br/>
+            <input type="text" name="ArticleAreaId" id="ArticleAreaId"> <span id="AreaIDspan"> </span><br/><br/>
+
+
+            <legend>Article Title: </legend> <br/>
+            <input type="text" name="ArticleTitle" id="ArticleTitle"> <span id="Titlespan"> </span><br/><br/>
+
+
+            <legend>Article Name  :</legend><br/>
+            <input type="text" name="Articlename" id="Articlename"> <span id="Namespan"> </span><br/><br/>
+
+
+            <legend>Article Description:</legend> <br/>
+            <input type="text" name="ArticleDesc" id="ArticleDesc"><br/><br/>
+
+
+
+        </fieldset>
+
+        <p>
+            <label> Content:<textarea name="ArticleContents" id="ArticleContents"> Content Area </textarea> </label> <span id="Contentspan"> </span> <br/>
+        </p>
+        <p>
+            <p>Visible</p>
+            <input type="checkbox" onclick="return validartremove();" name="ArticleVisible" id="ArticleVisible" value="Visible"></form><br/>
+
+
+            <input type="submit" onclick="return validartsinsert();" name="ArticleInsert" id="ArticleInsert" value="Add new">
+            <input type="submit" onclick="return validartsupdate();" name="ArticleUpdate" id="ArticleUpdate" value="Update">
+            <input type="submit"  onclick="return validartsdelete();"name="ArticleDelete" id="ArticleDelete" value="Delete">
+
+
+</form>
+</div>
+
+            <br/>
+        </p>
+</form>
+</div>
+
+

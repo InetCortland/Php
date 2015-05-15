@@ -1,0 +1,43 @@
+<div>
+    <form id="Article" name="Article" method="post">
+
+
+        <fieldset>
+            <legend> Article Info </legend> <br/>
+
+            <legend>Article Title: </legend> <br/>
+            <input type="text" name="ArticleTitle" id="ArticleTitle"> <span id="Titlespan"> </span><br/><br/>
+
+
+            <legend>Article Name  :</legend><br/>
+            <input type="text" name="Articlename" id="Articlename"> <span id="Namespan"> </span><br/><br/>
+
+
+            <legend>Article Description:</legend> <br/>
+            <input type="text" name="ArticleDesc" id="ArticleDesc"><br/><br/>
+
+
+
+            <legend>Page Id : </legend> <br/>
+            <input type="text" name="ArticlePageId" id="ArticlePageId"><span id="PageID"> </span><br/><br/>
+
+
+            <legend>Area Id : </legend> <br/>
+            <input type="text" name="ArticleAreaId" id="ArticleAreaId"> <span id="AreaIDspan"> </span><br/><br/>
+
+
+
+        </fieldset>
+
+     <p>
+     <label> Content:<textarea name="ArticleContents" id="ArticleContents"> Content Area </textarea> </label> <span id="Contentspan"> </span> <br/>
+        </p>
+        <p>
+
+        <input type="submit" onclick="return validartsinsert();" name="ArticleInsert" id="ArticleInsert" value="Add new">
+        <input type="submit": onclick="return validartsave();" name="ArticleSave" id="ArticleSave" value="Save">
+
+        <br/>
+        </p>
+    </form>
+</div>

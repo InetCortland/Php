@@ -1,0 +1,100 @@
+<div>
+    <form method="post" name="UsernameForm" id="UserForm" onsubmit="return checkUserForm()" autocomplete="off">
+        <fieldset>
+            <legend> New User </legend><br/>
+
+            <legend> Username:</legend><br/>
+            <input type="text" name="UserNamenew" id="Username"> <span id="userNameSpan"> </span><br/><br>
+
+            <legend>First Name:</legend><br/>
+            <input type="text" name="FirstNamenew" id="FirstName"><span id="firstNameSpan"> </span><br/><br>
+
+            <legend>Last Name:</legend><br/>
+            <input type="text" name="LastNamenew" id="LastName"> <span id="lastNameSpan"> </span><br/><br>
+
+            <legend> Password :</legend><br/>
+            <input type="password" name="passwordnew" id="password"> <span id="passwordSpan">   </span> <br/><br>
+
+            <legend> Confirm Password :</legend><br/>
+            <input type="password" name="password2new" id="passwordconf"><br/> <br>
+
+            <tr>
+                <td><input type="checkbox" name="isAuthornew" id="isAuthornew">
+                    <label for="isAuthornew">Author </label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="isEditornew" id="isEditornew">
+                    <label for="isEditornew">Editor</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="isAdminnew" id="isAdminnew">
+                    <label for="isAdminnew">Admin</label></td>
+            </tr>
+
+
+            <input type="hidden" name="Createdbynew" id="Createdbynew">
+            <input type="hidden" name="Modifiedbynew" id="Modifiedbynew">
+            <input type="hidden" name="Useridnew" id="Useridnew"><br/>
+
+        </fieldset>
+
+        <p>
+            <input name="usernewsubmit" type="submit" id="usernewsubmit" form="UserForm" value="Add new User">
+            <br/> </p>
+</div>
+</form>
+
+<div>
+    <form method="post" name="UserupForm" id="UserupForm" onsubmit="return checkUserUpdateForm()">
+        <fieldset>
+
+            <legend> Existing User</legend><br/>
+
+            <legend>User ID: </legend> <br/>
+            <input type="text" name="UserIDUpdate" id="UserIDUpdate"> <span id="userupdateID"> </span><br/><br>
+
+            <legend>Username: </legend> <br/>
+            <input type="text" name="UserNameupdate" id="UserNameupdate"> <span id="userupdateName"> </span><br/><br>
+
+            <legend>First Name: </legend> <br/>
+            <input type="text" name="FirstNameUpdate" id="FirstNameUpdate"> <span id="userupdatefName"> </span><br/><br>
+
+            <legend> Last Name: </legend><br/>
+            <input type="text" name="LastNameUpdate" id="LastNameUpdate"> <span id="userupdatelName"> </span><br/><br>
+
+            <legend>Password :</legend><br/>
+            <input type="password" name="passwordUpdate" id="passwordUpdate"> <span id="userupdatepassword"> </span><br/><br>
+
+            <legend> Confirm Password :</legend><br/>
+            <input type="password" name="password2Update" id="password2Update"><br/><br>
+
+            <tr>
+                <td><input type="checkbox" name="isAuthorUpdate" id="isAuthorUpdate">
+                    Author </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="isEditorUpdate" id="isEditorUpdate">
+                    Editor</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="isAdminUpdate" id="isAdminUpdate">
+                    <label for="isAdminUpdate">Admin</label></td>
+            </tr>
+
+            <input type="hidden" name="CreatedbyUpdate" id="CreatedbyUpdate">
+            <input type="hidden" name="ModifiedbyUpdate" id="ModifiedbyUpdate">
+            <input type="hidden" name="UseridUpdate" id="UseridUpdate">
+            </br>
+
+        </fieldset>
+
+        <p>
+            <input name="userupdatesubmit" type="submit" id="userupdatesubmit" value="Update User">
+
+
+        <input type= "button" onClick="location.href = '8AddNewArticleManagement.html'" name="ArticleInsert" id="ArticleInsert" value="Add Article">
+
+        <br/></p>
+
+</form>
+</div>

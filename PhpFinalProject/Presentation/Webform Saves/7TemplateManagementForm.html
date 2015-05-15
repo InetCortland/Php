@@ -1,0 +1,36 @@
+<div>
+    <form id="form1" name="form1" method="post">
+        <fieldset>
+
+            <legend>Templates </legend><br/>
+
+            <legend>Template Id :  </legend><br/>
+            <input name="Templateid" type="text" id="Templateid">  Only for Delete & Update ||||| <span id="IDspan"> </span><br/><br>
+
+            <legend>Template Name  :</legend><br/>
+            <input type="text" name="Templatename" id="Templatename"> <span id="templateNamespan"> </span> <br/> <br>
+
+            <legend>Template Description:</legend><br/>
+            <input type="text" name="TemplateDesc" id="TemplateDesc"> <span id="templateDescspan"> </span> <br/> <br>
+
+            <legend>  Visible </legend><br/>
+            <input type="checkbox" name="TemplateVisible" id="TemplateVisible"></br><br>
+
+            <legend>Content:</legend><br/>
+            <input type="text" name="TemplateContents" id="TemplateContents"> <span id="templatecontentspan"> </span> <br/> <br>
+
+        </fieldset>
+
+
+        <p>
+            <input type="submit" onclick="return validtempinsert();" name="TemplateInsert" id="TemplateInsert" value="Insert">
+            <input type="submit" onclick="return validtempsupdate();" name="templateUpdate" id="templateUpdate" value="Update">
+            <input type="submit"  onclick="return validtempsdelete();"name="templateDelete" id="templateDelete" value="Delete">
+            <input type="submit" name="templateVisbileness" id="templateVisbileness" value="Update Visible"></td>
+
+      <input type="button" onClick="location.href = '8AddNewArticleManagement.html'"  name="ArticleInsert" id="ArticleInsert" value="Add Article"></p>
+    <br/> </p>
+
+
+</form>
+</div>

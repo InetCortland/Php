@@ -1,0 +1,35 @@
+<div>
+    <form id="form1" name="form1" method="post" >
+
+        <fieldset>
+            <legend>Pages </legend><br/>
+
+            <legend>Page Id :  </legend><br/>
+            <input type="text" name="pageid" id="pageid"> This is only for Deletes &amp; Updates <span id="updateID"> </span><br/><br/>
+
+            <legend>Menu Name:  </legend><br/>
+            <input type="text" name="menuname" id="menuname"> <span id="menuupdate"> </span><br/><br/><br>
+
+            <legend> Visible </legend><br/>
+            <input type="checkbox" name="isVisible" id="isVisible"> </br><br/><br>
+
+            <legend> Page Name </legend><br/>
+            <input type="text" name="pagename" id="pagename"> <span id="nameupdate"> </span><br/><br/><br>
+
+            <legend> Description </legend><br/>
+            <input type="text" name="pageDesc" id="pageDesc"><span id="descupdate"> </span><br/></br>
+        </fieldset>
+
+        <p>
+            <input type="submit" onclick="return validpagesinsert();" name="submitinsertPage" id="submitinsertPage" value="Add New">
+            <input type="submit" onclick="return validpagesupdate();"name="submitupdatePage" id="submitupdatePage" value="Update">
+            <input type="submit"onclick="return validpagesdelete();" name="submitdeletePage" id="submitdeletePage" value="Delete">
+
+            <input type="button" onClick="location.href = '8AddNewArticleManagement.html'"  name="ArticleInsert" id="ArticleInsert" value="Add Article">
+
+            <br />
+        </p>
+
+
+</form>
+</div>
